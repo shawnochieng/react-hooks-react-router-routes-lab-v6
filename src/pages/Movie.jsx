@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import { movies } from "../data";
 
+// Movie
+
 function Movie() {
   const { id } = useParams();
   const movie = movies.find((m) => m.id === parseInt(id));

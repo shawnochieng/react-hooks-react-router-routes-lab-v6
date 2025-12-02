@@ -7,7 +7,7 @@ function Directors() {
     <div>
       <NavBar />
       <h1>Directors Page</h1>
-
+      {/* Directors */}
       {directors.map((director) => (
         <article key={director.name}>
           <h2>{director.name}</h2>

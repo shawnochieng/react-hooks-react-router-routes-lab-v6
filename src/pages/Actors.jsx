@@ -7,7 +7,7 @@ function Actors() {
     <div>
       <NavBar />
       <h1>Actors Page</h1>
-
+      {/* Actors */}
       {actors.map((actor) => (
         <article key={actor.name}>
           <h2>{actor.name}</h2>

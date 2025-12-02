@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import { movies } from "../data";
 import MovieCard from "../components/MovieCard";
 
+// Home page
 function Home() {
   return (
     <div>
